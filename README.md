@@ -57,7 +57,7 @@ A full-stack Job Portal web application that allows job seekers to apply for job
 ```bash
 # Sample application.properties
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/jobportal
+spring.datasource.url=jdbc:postgresql://localhost:5432/Your_DataBase_Name
 spring.datasource.username=yourUsername
 spring.datasource.password=yourPassword
 
