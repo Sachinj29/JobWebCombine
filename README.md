@@ -1,6 +1,6 @@
 # 💼 Job Portal Web Application
 
-A full-stack Job Portal web application that allows job seekers to apply for jobs and employers to post vacancies. Built with a **Spring Boot** backend and a simple yet functional frontend using HTML, CSS, and JavaScript.
+A full-stack Job Portal web application that enables job seekers to apply for jobs and employers to post vacancies. It is built with a **robust Spring Boot backend** and a **modern React frontend**, providing a seamless and responsive user experience.
 
 ---
 
@@ -8,7 +8,7 @@ A full-stack Job Portal web application that allows job seekers to apply for job
 
 | Layer      | Technology                         |
 |------------|-------------------------------------|
-| Frontend   | HTML, CSS, JavaScript               |
+| Frontend   | React, HTML, CSS, JavaScript        |
 | Backend    | Spring Boot                         |
 | Database   | PostgreSQL                          |
 
@@ -17,22 +17,22 @@ A full-stack Job Portal web application that allows job seekers to apply for job
 ## 🔍 Features
 
 - 🧑‍💼 User & Employer Registration/Login (Spring Security)
-- 📃 Post and Manage Jobs (CRUD)
-- 🔍 Search & Apply for Jobs
-- 👤 Profile Management
-- 📑 RESTful APIs for frontend-backend communication
-- 🔒 Secure access using **Spring Security**
+- 📃 Post, Update, and Delete Job Listings (CRUD)
+- 🔍 Search and Apply for Jobs
+- 👤 Profile Dashboard for Users
+- 📑 RESTful API communication between frontend and backend
+- 🔒 Secure Authentication & Authorization with **Spring Security**
 
 ---
 
 ## 📦 Spring Boot Backend (Core Focus)
 
-### ✅ Key Concepts Used:
+### ✅ Key Concepts Implemented:
 
-- **Spring MVC** – Controller-Service-Repository layered architecture  
-- **Spring Data JPA** – ORM-based interaction with PostgreSQL  
-- **RESTful APIs** – JSON-based API endpoints for frontend integration  
-- **Spring Security** – Authentication and Authorization  
+- **Spring MVC** – Structured Controller-Service-Repository architecture  
+- **Spring Data JPA** – ORM with PostgreSQL for smooth data handling  
+- **RESTful API** – JSON-based endpoints for frontend communication  
+- **Spring Security** – Role-based access, login & signup protection  
 
 ---
 
@@ -51,15 +51,15 @@ A full-stack Job Portal web application that allows job seekers to apply for job
 ### 🧑‍💻 Backend (Spring Boot)
 
 1. Open the project in **IntelliJ IDEA**
-2. Configure the database credentials in `application.properties`
-3. Run the `JobPortalApplication.java` file to start the Spring Boot server
+2. Set up your PostgreSQL database and update credentials in `application.properties`
+3. Run the main class: `JobPortalApplication.java`
 
-```bash
-# Sample application.properties
+```properties
+# application.properties
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/Your_DataBase_Name
-spring.datasource.username=yourUsername
-spring.datasource.password=yourPassword
+spring.datasource.url=jdbc:postgresql://localhost:5432/your_database_name
+spring.datasource.username=your_username
+spring.datasource.password=your_password
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
